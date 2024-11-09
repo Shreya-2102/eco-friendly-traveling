@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Travel Tips</title>
+    <style>
+        /* General Styling */
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #e6f5f1;
+
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: #1c6758;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-image: url("2.webp");
+        }
+
+        header h1 {
+            font-size: 36px;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #158f77;
+            padding: 15px;
+            position: sticky;
+            top: 70px;
+            z-index: 90;
+            background-image: url("2.webp");
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #ffd700;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #f0fdfc;
+
+
+
+        }
+
+        h2 {
+            font-size: 32px;
+            color: #1c6758;
+            margin-bottom: 40px;
+            position: relative;
+        }
+
+        h2::after {
+            content: '';
+            width: 60px;
+            height: 4px;
+            background-color: #ffd700;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .custom {
+            margin-left: 42%;
+        }
+
+        .custom::after {
+            content: '';
+            width: 60px;
+            height: 4px;
+            background-color: #ffd700;
+            position: absolute;
+            bottom: -10px;
+            left: 13%;
+            transform: translateX(-50%);
+        }
+
+        /* Tips List Styling */
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        li {
+            background-color: white;
+            width: 300px;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        li:hover {
+            transform: translateY(-10px);
+        }
+
+        li img {
+            border-radius: 8px;
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+
+        li h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #1c6758;
+        }
+
+        li p {
+            font-size: 16px;
+            color: #666;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            ul {
+                flex-direction: column;
+            }
+
+            li {
+                width: 80%;
+            }
+        }
+
+        /* Footer Styling */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1c6758;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            background-image: url("2.webp");
+        }
+
+        footer p {
+            font-size: 16px;
+            letter-spacing: 1px;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Eco-Friendly Travel Tips</h1>
+        <p>Explore the world while preserving the environment!</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#tips">Tips</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Main Section -->
+    <section id="tips">
+        <h2>15 Tips for Sustainable Travel</h2>
+        <ul>
+            <li>
+                <img src="15.jpg" alt="Tip 1">
+                <h3>Pack Light</h3>
+                <p>A lighter bag means less fuel consumption during travel.</p>
+            </li>
+            <li>
+                <img src="3.webp" alt="Tip 2">
+                <h3>Use Public Transport</h3>
+                <p>Opt for buses, trains, or bikes instead of taxis and rental cars.</p>
+            </li>
+            <li>
+                <img src="14.jpeg" alt="Tip 3">
+                <h3>Bring Reusable Items</h3>
+                <p>Carry reusable water bottles, shopping bags, and utensils.</p>
+            </li>
+            <li>
+                <img src="16.jpg" alt="Tip 4">
+                <h3>Eco-friendly Hotels</h3>
+                <p>Choose accommodations that prioritize sustainability.</p>
+            </li>
+            <li>
+                <img src="2.avif" alt="Tip 5">
+                <h3>Non-stop Flights</h3>
+                <p>Reduce fuel consumption and emissions by flying direct.</p>
+            </li>
+            <li>
+                <img src="4.jpeg" alt="Tip 6">
+                <h3>Electric Vehicles</h3>
+                <p>Rent electric or hybrid vehicles for reduced emissions.</p>
+            </li>
+            <li>
+                <img src="5.jpeg" alt="Tip 7">
+                <h3>Solar-powered Chargers</h3>
+                <p>Reduce electricity use with solar-powered devices.</p>
+            </li>
+            <li>
+                <img src="6.jpeg" alt="Tip 8">
+                <h3>Support Local</h3>
+                <p>Buy locally produced goods to lower carbon footprints.</p>
+            </li>
+            <li>
+                <img src="7.jpeg" alt="Tip 9">
+                <h3>Plant-based Meals</h3>
+                <p>Opt for vegetarian or plant-based foods.</p>
+            </li>
+            <li>
+                <img src="8.jpeg" alt="Tip 10">
+                <h3>Biodegradable Toiletries</h3>
+                <p>Bring eco-friendly toiletries to protect water sources.</p>
+            </li>
+            <li>
+                <img src="9.jpeg" alt="Tip 11">
+                <h3>Conserve Energy</h3>
+                <p>Limit air conditioning usage to save energy.</p>
+            </li>
+            <li>
+                <img src="10.jpeg" alt="Tip 12">
+                <h3>Volunteer for Nature</h3>
+                <p>Participate in local conservation projects to support sustainability.</p>
+            </li>
+            <li>
+                <img src="11.jpeg" alt="Tip 13">
+                <h3>Respect Wildlife</h3>
+                <p>Maintain a safe distance from animals and avoid disturbing their habitats.</p>
+            </li>
+            <li>
+                <img src="13.jpeg" alt="Tip 14">
+                <h3>Use Digital Tickets</h3>
+                <p>Reduce paper waste by using digital tickets and passes.</p>
+            </li>
+            <li>
+                <img src="12.jpeg" alt="Tip 15">
+                <h3>Buy Local Souvenirs</h3>
+                <p>Support local artisans and avoid mass-produced souvenirs.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="about" style="background-color: #e0f7e6; padding: 60px 20px;">
+        <h2>About Us</h2>
+        <p style="font-size: 18px; color: #333; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+            Hi! I am Shreya, a 1st-year B.Tech CSE student at Lovely Professional University, Punjab. As part of a
+            college project, My team and I created this website to raise awareness about eco-friendly travel practices.
+            Traveling sustainably is a small but significant way to help the environment, and I hope this project helps
+            inspire more people to do their part. Let's make the world greener together!
+        </p>
+    </section>
+
+    <section id="contact" style="background-color: #dff3f1; padding: 60px 20px;display:inline-block;"></section>
+    <h2 class="custom">Contact Us</h2>
+    <p style="font-size: 18px; color: #333; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+        Feel free to reach out to us for any suggestions or queries! You can contact me at:
+    </p>
+    <p style="font-size: 14px; color: #1c6758; font-weight: bold; margin-top: 10px; margin-left: 42%;">
+        Email: ecofriendly@gmail.com
+    </p>
+
+    </section>
+
+    <!-- Privacy Policy Section -->
+    <section id="privacy-policy" style="background-color: #f0fdfc; padding: 60px 20px;">
+        <h2>Privacy Policy</h2>
+        <p style="font-size: 18px; color: #333; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+            We value your privacy and are committed to protecting any personal information you share with us. This
+            website does not collect any personally identifiable information unless voluntarily provided by the user,
+            such as via email. Any information provided is solely for communication purposes and will not be shared with
+            third parties. By using this site, you agree to the collection and use of information in accordance with
+            this policy.
+        </p>
+    </section>
+
+    <!-- Terms of Service Section -->
+    <section id="terms-of-service" style="background-color: #e0f7e6; padding: 60px 20px;">
+        <h2>Terms of Service</h2>
+        <p style="font-size: 18px; color: #333; max-width: 800px; margin: 0 auto; line-height: 1.6;">
+            By accessing and using this website, you agree to comply with the following terms of service. All content
+            provided is for informational purposes only, and while we strive to keep the information up to date, we make
+            no representations or warranties of any kind about its accuracy, completeness, or suitability. The use of
+            any material on this site is at your own risk, and we are not liable for any loss or damage arising from the
+            use of this website.
+        </p>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>Eco-Friendly Traveler Tips By Shreya | <a href="#privacy-policy">Privacy Policy</a> | <a
+                href="#terms-of-service">Terms of Service</a></p>
+    </footer>
+
+</body>
+
+</html>
